@@ -8,7 +8,7 @@ def about(request):
 def login(request):
     return render(request,"login.htm")
 def tracker(request):
-    return render(request,"tracker.htm")
+    return render(request,"finaltracker.html")
 def essentials(request):
     return render(request,"essentials.htm")
 
