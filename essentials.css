@@ -1,0 +1,133 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+body {
+  font-family: "sofia", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #FCF3E7;
+}
+h1{
+    
+    font-family: "Poppins", sans-serif;
+
+    width:200px;
+      border-bottom: 3px solid #B5D6E8;;
+    
+    
+}
+table {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  margin:0;
+  padding:0;
+  width: 100%;
+}
+table tr {
+    font-family: 'sofia';
+  
+  padding: 5px;
+}
+table th, table td {
+  padding: 10px;
+  text-align: left;
+}
+table th {
+    font-family: 'Lato',sans-serif;
+  font-size: 14px;
+  letter-spacing: 1px;
+  ;
+}
+@media screen and (max-width: 600px) {
+  table {
+    border: 0;
+  }
+  table thead {
+    display: none;
+  }
+  table tr {
+    border-bottom: 2px solid #ddd;
+    display: block;
+    margin-bottom: 10px;
+  }
+  table td {
+    border-bottom: 1px dotted #ccc;
+    display: block;
+    font-size: 13px;
+    text-align: right;
+  }
+  table td:last-child {
+    border-bottom: 0;
+  }
+  table td:before {
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+}
+.dark{
+    background: #B5D6E8;
+}
+.dark1{
+    background: #228cc5;
+}
+
+span {
+	font-family: 'Lato', sans-serif;
+	color: #2D3E52;
+	font-size: 1.9em;
+		
+}
+#cards {
+	margin-top: 10%;
+}
+.bluecard {
+	-webkit-box-shadow: 0px 4px 22px 2px rgba(0,0,0,0.4);
+	-webkit-transition: all .3s ease-in-out;
+	cursor: pointer;
+	text-align: center;
+	display: inline-block;
+	position: relative;
+	background: #5684D2;
+	width: 250px;
+	height: 300px;
+	margin-top: 15px;
+	margin-left: 3%;
+	border-radius: 5px;
+	margin-right: 3%;
+	background: linear-gradient(to bottom, #5684D2 80%, #EF0D33 50%);
+	background-size: 100% 200%;
+	background-position:top;
+	vertical-align: top;
+}
+.bluecard:hover {
+	-webkit-transform:scale(.95);
+	background-position: bottom;
+}
+.bluecard p {
+	color: black;
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.7em;
+}
+.bluecard img {
+	width: 150px;
+	height: 150px;
+	margin-top: 20px;
+}
+.button {
+	transition-duration: 0.4s;
+  }
+  
+  .button:hover {
+	background-color: #5684D2;
+	color: black;
+	margin-left: 10px;
+	margin-right: 10px;
+	
+  }
+  a{
+	  text-decoration: none;
+	 color: black; 
+	 margin-left: 20px;
+	 margin-right: 20px;
+  }
+ 
