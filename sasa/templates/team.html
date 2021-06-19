@@ -4,8 +4,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="team.css" type="text/css">
+  <title>About Us | Fly-Solo</title>
+  {% load static %}
+  <link rel="stylesheet" href="{% static 'team.css' %}" type="text/css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
   <link rel="stylesheet" href="'https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap'">
 </head>
@@ -14,12 +15,12 @@
   
 
 <div class="wrapper">
-    <h1><img src="—Pngtree—flower line art aesthetic_6295385 (1).png" alt=""width="100px">The team behind Euphoria<img src="—Pngtree—flower line art aesthetic_6295385 (1).png" alt=""width="100px"></h1>
+    <h1><img src="—Pngtree—flower line art aesthetic_6295385 (1).png" alt=""width="100px">The team behind Fly-Solo<img src="—Pngtree—flower line art aesthetic_6295385 (1).png" alt=""width="100px"></h1>
     
     <div class="our_team">
         <div class="team_member">
           <div class="member_img">
-             <img src="anji1.png" alt="our_team">
+             <img src="{% static 'anji1.png'%}" alt="our_team">
             <div class="social_media">
                <div class="linkedin item"><a href="https://www.linkedin.com/in/anjali-vats-188305206/"target="_blank"></a><i class="fab fa-linkedin"></i></a></div>
                <div class="github item"><a href="https://github.com/anjalivats2712"target="_blank"><i class="fab fa-github"></i></a></div>
@@ -33,7 +34,7 @@
         </div>
         <div class="team_member">
            <div class="member_img">
-             <img src="anki1.png" width= "1000px"alt="our_team">
+             <img src="{% static 'anki1.png'%}" width= "1000px"alt="our_team">
              <div class="social_media">
                <div class="linkedin item"><a href="https://www.linkedin.com/in/ankita-kashyap-ba9406174/"target="_blank"><i class="fab fa-linkedin"></i></a></div>
                <div class="github item"><a href="https://github.com/ankitakashyap05" target="_blank"><i class="fab fa-github"></i></a></div>
@@ -48,7 +49,7 @@
       </div>
         <div class="team_member">
            <div class="member_img">
-             <img src="sandesh1.png" alt="our_team">
+             <img src="{% static 'sandesh1.png'%}" alt="our_team">
              <div class="social_media">
                <div class="linkedin item"><a href="https://www.linkedin.com/in/sandesh-bansal-853a66202/"target="_blank"><i class="fab fa-linkedin"></i></a></div>
                <div class="github item"><a href="https://github.com/sandesh3568"target="_blank"><i class="fab fa-github"></i></a></div>
@@ -62,7 +63,7 @@
       </div>
         <div class="team_member">
            <div class="member_img">
-             <img src="suyash1.png" alt="our_team">
+             <img src="{% static 'suyash1.png'%}" alt="our_team">
              <div class="social_media">
                <div class="linkedin item"><a href="https://www.linkedin.com/in/suyash-barwal-93ba84202/"target="_blank"></a><i class="fab fa-linkedin"></i></a></div>
                <div class="github item"><a href="https://github.com/suyash2002"target="_blank"><i class="fab fa-github"></a></i></div>
