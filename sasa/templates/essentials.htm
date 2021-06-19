@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="essentials.css" type="text/css">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'essentials.css'%}" type="text/css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
     <link rel="stylesheet" href="'https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap'">
-    <title>Document</title>
+    <title>Essentials | Fly-Solo</title>
 </head>
 <body>
     <center><h1>Essentials</h1></center>
@@ -86,19 +87,19 @@
             
          <br>
           <div class="bluecard">
-                <a href="https://youtu.be/ea63dNIXMvs"target="_blank"><img src="sk1.png" a><br></a>
+                <a href="https://youtu.be/ea63dNIXMvs"target="_blank"><img src="{% static 'sk1.png'%}" a><br></a>
                 <p>Menstrual Pads</p>
                 <a href="https://www.amazon.in/s?k=menstrual+pads&ref=nb_sb_noss_2"target="_blank"> <p class="button">Check out now!</button></a> 
            </div>
       
            <div class="bluecard" id="bsec">
-              <a href="https://youtu.be/o9fPUfm-uYE"target="_blank"><img src="sk2.png" a><br></a>
+              <a href="https://youtu.be/o9fPUfm-uYE"target="_blank"><img src="{%static 'sk2.png'%}" a><br></a>
                 <p>Menstrual cups</p>
               <a href="https://www.amazon.in/s?k=menstrual+cups&ref=nb_sb_noss_2" target="_blank"> <p class="button">Check out now!</button></a> 
            </div>
        
            <div class="bluecard" id="bthir">
-              <a href="https://youtu.be/PeVGc6x5dM8"target="_blank"><img src="sk3.png" a><br></a>
+              <a href="https://youtu.be/PeVGc6x5dM8"target="_blank"><img src="{% static 'sk3.png'%}" a><br></a>
                 <p>Tampons</p>
                 <a href="https://www.amazon.in/s?k=menstrual+tampons&ref=nb_sb_noss_1"target="_blank"> <p class="button">Check out now!</button></a> 
            </div>
