@@ -1,0 +1,141 @@
+<html>
+
+<head>
+	<title>Cycle Oracle . Period Calculator . Predict Your Next Menstrual Cycle</title>
+	
+	<script src="lib/jquery-1.11.2.min.js"></script>
+	<script src="lib/moment.min.js"></script>
+	<script src="lib/scripts.js"></script>
+     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    <link rel="stylesheet" type="css" href="finaltracker.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/css/bootstrap-datetimepicker.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/js/bootstrap-datetimepicker.min.js"></script>
+
+</head>
+
+<body background = "Artboard.png">
+
+	<header >
+	<center><h1>Track your Cycle</h1></center>
+    <br>
+    <br>
+    <center><p>Predict Your Next Menstrual Cycle</p></center>
+    <br>
+    <br>
+	</header>
+
+	<main><form>
+		<div class="cycle1">
+		<font face= "Poppins"><h2><center><label for="start-cycle1">My last period began</label></center></h2></font>
+	 		
+              <main class="container">
+        
+        <br>
+        <br>
+
+        <section class="col-sm-12">
+            <div class="form-group">
+                <div class='input-group date' id='datetimepicker1'>
+                    <input  id = "start-cycle2" type='text' class="form-control" />
+                    <span class="input-group-addon">
+                            <span class="glyphicon glyphicon-calendar"></span>
+                    </span>
+                </div>
+            </div>
+
+        </section>
+        <footer>
+
+        </footer>
+    </main>
+    <script type="text/javascript">
+        $(function() {
+            $('#datetimepicker1').datetimepicker();
+        });
+    </script>
+		</div>
+<br>
+<br>
+      <!--2nd cycle -->
+
+        	<main><form>
+		<div class="cycle2">
+			<font face= "Poppins"><h2><center><label for="start-cycle2">The one before that began</label></center></h2></font>
+	 		
+              <main class="container">
+        
+        <br>
+        <br>
+
+        <section class="col-sm-12">
+            <div class="form-group">
+                <div class='input-group date' id='datetimepicker2'>
+                    <input id = "start-cycle2" type='text' class="form-control" />
+                    <span class="input-group-addon">
+                            <span class="glyphicon glyphicon-calendar"></span>
+                    </span>
+                </div>
+            </div>
+
+        </section>
+        <footer>
+
+        </footer>
+    </main>
+    <script type="text/javascript">
+        $(function() {
+            $('#datetimepicker2').datetimepicker();
+        });
+    </script>
+		</div>
+
+		
+       <!--submit button-->
+		<div>
+			<center><input type="submit" value="Submit" class="button"></center>
+		</div>
+		<div class="results">
+			<center><p class="cycle-length">Length of last cycle: <strong></strong></p></center>
+			<center><p class="cycle-start">Predicted upcoming period: <strong></strong></p></center>
+			<center><p class="error">Please provide a valid date.</p></center>
+		</div>
+	</form></main>
+<!--
+		<div class="cycle2">
+			<center><label for="start-cycle2">The one before that began</label></center>
+			
+             <main class="container">
+        
+        <br>
+        <br>
+
+        <section class="col-sm-12">
+            <div class="form-group">
+                <div class='input-group date' id='datetimepicker1'>
+                    <input type='text' class="form-control" />
+                    <span class="input-group-addon">
+                            <span class="glyphicon glyphicon-calendar"></span>
+                    </span>
+                </div>
+            </div>
+
+        </section>
+        <footer>
+
+        </footer>
+    </main>
+    <script type="text/javascript">
+        $(function() {
+            $('#datetimepicker1').datetimepicker();
+        });
+    </script>
+		</div>-->
+</body>
+
+</html>
