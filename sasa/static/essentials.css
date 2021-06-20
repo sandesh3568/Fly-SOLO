@@ -5,15 +5,22 @@ body {
   padding: 0;
   background: #FCF3E7;
 }
+img{
+  margin: 0%;
+  padding:0%;
+ 
+}
 h1{
     
     font-family: "Poppins", sans-serif;
-
+display: grid;
+place-items:center ;
     width:200px;
       border-bottom: 3px solid #B5D6E8;;
     
     
 }
+
 h2{
   font-family: "Lato", sans-serif;
 
@@ -21,8 +28,8 @@ h2{
 table {
   border: 1px solid #ccc;
   border-collapse: collapse;
-  margin:0;
-  padding:0;
+ 
+  
   width: 100%;
 }
 table tr {
