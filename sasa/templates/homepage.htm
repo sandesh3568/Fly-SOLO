@@ -9,29 +9,42 @@
     <link rel="stylesheet" href="{% static 'homepage.css' %}" type="text/css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
     <link rel="stylesheet" href="'https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap'">
-</head>
+<style>
+.container{
+    margin: 10px;
+    
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+input{
+    width: 258.073px;
+
+}
+textarea{
+    width: 258.073px;
+  
+}
+button{
+  color:white;
+  background-color:black;
+}
+
+
+
+</style>
+  </head>
 <body>
     
         <center>
             <h1 id="head">Fly-Solo</h1>
             </center>
+<!--  NAVBAR -->
 
-            <nav>
-                <div class="hamburger">
-                  <div class="line"></div>
-                  <div class="line"></div>
-                  <div class="line"></div>
-                </div>
-                <ul class="nav-links">
-                  <li><a href="/about">About Us</a></li>
-                  <li><a href="/tracker">Tracker</a></li>
-                  <li><a href="/blog">BlogPost</a></li>
-                  <li><a href="/essentials">Essentials</a></li>
 
-                  <li><a href="/login">Login/Signup</a></li>
-                </ul>
-              </nav>
 
+       
               <div class="wrapper" id="t-transition">
         
                 <div class="static-txt">I'm</div>
@@ -51,31 +64,24 @@
 
 
 
+<!-- CONTACT US -->
 
+<center><h1>Contact us</h1></center>
+<div class="container">
+    <div class="items-1 items"><img src="static/—Pngtree—contact our telephone customer service_5412847.png" height="200px"alt="contact us"></div>
+    <div class="items-2 items">
+        <form action="">
+        Your email:
+            <div><input type="email"></div>
+       <div>Your message:<label for="subject"></label></div>
+        
+       
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
-
-
-
-
-
-
-    <!-- TEAM MEMBERS -->
-    
-
-
-
-<script >
-  const hamburger = document.querySelector(".hamburger");
-const navLinks = document.querySelector(".nav-links");
-const links = document.querySelectorAll(".nav-links li");
-
-hamburger.addEventListener("click", () => {
-  navLinks.classList.toggle("open");
-  links.forEach(link => {
-    link.classList.toggle("fade");
-  });
-});
-</script>
+            <button type="submit" class="btn btn-primary">Message</button>
+        </form>
+    </div>
+</div>
 
    
 
