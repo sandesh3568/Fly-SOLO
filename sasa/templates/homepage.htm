@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage | Fly-Solo</title>
     {% load static %}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="{% static 'homepage.css' %}" type="text/css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
     <link rel="stylesheet" href="'https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap'">
@@ -31,6 +32,13 @@ button{
   background-color:black;
 }
 
+#center{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 
 
 </style>
@@ -40,7 +48,7 @@ button{
         <center>
             <h1 id="head">Fly-Solo</h1>
             </center>
-<!--  NAVBAR -->
+
 
 
 
@@ -83,7 +91,24 @@ button{
     </div>
 </div>
 
-   
 
+<!-- SHARE THIS PAGE -->
+<div >
+<center><h1 style="padding-top: 20px;">Share this initiative</h1>
+
+   <p>Help us in the journey to strengthen voices of millions of women out there.If you feel good about this inititaive share this page through your social media handles.</p>
+
+
+</center>
+
+
+<div  class="a2a_kit a2a_kit_size_32 a2a_default_style "id="center">
+  <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+  <a class="a2a_button_facebook"></a>
+  <a class="a2a_button_twitter"></a>
+  <a class="a2a_button_email"></a>
+  </div>
+  <script async src="https://static.addtoany.com/menu/page.js"></script>
+</div>
 </body>
 </html>
